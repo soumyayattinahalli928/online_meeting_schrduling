@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ 
+  height: 100vh;
+  width: 100%;
+  
+  
+}
+.container{
+  background-color: gainsboro;
+  margin-top: 10%;
+  height: 50vh;
+  width: 50%;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+ 
+}
+img{
+  height: 40vh;
+  width: 80%;
+}
+.input{
+  height: 50px;
+  width: 300px !important;
+}
+.btn{
+  width: 300px;
+}
+h1{
+  
+  text-align: center;
+  font-family:cursive;
+}
+
+/* UserLogin */
+.userimg{
+  height: 100vh;
+  width: 100%;
+}
+.userform{
+  background-color: rgb(247, 200, 200);
+  z-index: 1;
+  height: 80%;
+  width: 30%;
+  margin-top: -60%;
+  margin-left: 60%;
+}
+.mb-3{
+  border-color: white;
+  width: 30%;
+  border-color: white;
+}
+
+/* Admin Reg */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+ 
+  height: 100vh;
+  width: 100%;
+  
+}
+.adreg{
+  
+  background-color: rgb(160, 160, 233);
+  margin-left: 30%;
+
+  height: 60vh;
+  width: 40%;
+}
+.form{
+  margin-left: 20%;
+}
+.adinput{
+  width: 300px!important;
+}
+
+/* User Reg */
+
+body{
+ 
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgb(233, 163, 233), rgb(236, 173, 173));
+}
+.adreg{
+  
+  background-color: white;
+  margin-left: 30%;
+
+  height: 65vh;
+  width: 40%;
+}
+.userinput{
+  width: 300px;
+}
+.form{
+  margin-top: 5%;
+}
