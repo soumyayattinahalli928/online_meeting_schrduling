@@ -25,6 +25,6 @@ const UserLogin = () => {
           </div>
         </div>
     </div>
-  )
+  );
 }
-export default UserLogin
+export default UserLogin;
