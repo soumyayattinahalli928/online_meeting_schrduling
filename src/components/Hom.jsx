@@ -24,7 +24,7 @@ function ImageComponent() {
     </Navbar>
   <div style={{position:'relative',maxWidth:'100%'}}>
     
-<div style={{backgroundImage:'url(image.png)',backgroundSize:'cover',height:'650px',position:'relative',margin:'35px',padding:'10px'}}>
+<div style={{backgroundImage:'url(image.png)',backgroundSize:'cover',height:'650px',position:'relative',margin:'36px',padding:'10px'}}>
   
     <div style={{position:'absolute',top:'30%',left:'50%',transform:'translate(-50%,-50%)',textAlign:'center',color:'black'}}>
 <h1 style={{fontSize:'100px',fontStyle:'italic',color:'blueviolet'}}>WELCOME</h1>
