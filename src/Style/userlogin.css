@@ -1,0 +1,29 @@
+/* UserLogin */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+   
+    height: 100vh;
+    width: 100%;
+    
+  }
+.userimg{
+    height: 100vh;
+    width: 100%;
+  }
+  .userform{
+    background-color: rgb(247, 200, 200);
+    z-index: 1;
+    height: 80%;
+    width: 30%;
+    margin-top: -60%;
+    margin-left: 60%;
+  }
+  .mb-3{
+    border-color: white;
+    width: 30%;
+    border-color: white;
+  }

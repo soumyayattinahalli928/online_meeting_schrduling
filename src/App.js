@@ -6,16 +6,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import UserLogin from './Pages/UserLogin';
 import AdminReg from './components/AdminReg';
 import UserReg from './Pages/UserReg';
-// import Table from './Pages/Table';
+import Table from './Pages/Table';
 function App() {
   return (
     <div className="App">
      <AdminLogin/>
- <UserLogin/> 
+     <Nav/>
+ {/* <UserLogin/> 
 
       <AdminReg/> 
 
-    <UserReg/>
+    <UserReg/> */}
 
       {/* <Table/> */}
     </div>
