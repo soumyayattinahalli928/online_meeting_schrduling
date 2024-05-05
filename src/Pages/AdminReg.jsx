@@ -8,7 +8,6 @@ import * as yup from 'yup';
 import '../../src/Style/adminreg.css';
 import Nav  from '../Components/Nav';
 
-
 function FormExample() {
   const [formData, setFormData] = useState({
     firstName: '',
@@ -143,7 +142,7 @@ function FormExample() {
                   </Form.Group>
                 </Row>
                 <br />
-                <Button type='submit' style={{width:'30%', marginLeft:'20%'}}>Submit  </Button>
+                <Button type='submit'> Submit </Button>
               </Form>
             </div>
           </div>

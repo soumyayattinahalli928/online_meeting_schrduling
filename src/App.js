@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
-import './index.css';
-import AdminLogin from './components/AdminLogin';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import UserLogin from './Pages/UserLogin';
-import AdminReg from './components/AdminReg';
-import UserReg from './Pages/UserReg';
-import Table from './Pages/Table';
+import Home from './Components/Home';
+import Nav from './Components/Nav';
+
 function App() {
   return (
     <div className="App">
-     <AdminLogin/>
-     <Nav/>
- {/* <UserLogin/> 
+    
+      <Nav/><br/>
+      <Home/>
 
-      <AdminReg/> 
-
-    <UserReg/> */}
-
-      {/* <Table/> */}
     </div>
   );
 }
