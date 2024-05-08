@@ -1,0 +1,33 @@
+/* UserLogin */
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+   
+    height: 100vh;
+    width: 100%;
+    
+  }
+  h1{
+    text-align: center;
+  }
+.userimg{
+    height: 100vh;
+    width: 100%;
+  }
+  .userform{
+    color: white;
+    margin-top: -650px;
+    
+    height: 80%;
+    width: 30%;
+    
+    margin-left: 70%;
+  }
+  .mb-3{
+
+    width: 30%;
+    
+  }

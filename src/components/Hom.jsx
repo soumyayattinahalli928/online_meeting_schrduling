@@ -13,7 +13,7 @@ function ImageComponent() {
           <Nav>
             <Nav.Link href="#home">Home</Nav.Link>
             <NavDropdown title="Log In" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1" style={{fontStyle:'italic',color:'blue'}}>As an admin</NavDropdown.Item>
+              <NavDropdown.Item href="" style={{fontStyle:'italic',color:'blue'}}>As an admin</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2"style={{fontStyle:'italic',color:'blue'}}>
                 As an user
               </NavDropdown.Item>

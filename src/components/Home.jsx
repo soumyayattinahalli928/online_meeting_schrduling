@@ -1,27 +1,18 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import React from 'react';
+
+import { NavDropdown, Navbar, Nav } from 'react-bootstrap';
 
 function Home() {
   return (
-    
-    
-    <div className='container'>
-        <div className='heading'>
-        <h1>WELCOME</h1>
-        <div className='nexus'>
-        <h1>Nexus Meet</h1>
+    <div>
+      <div style={{ position: 'relative', maxWidth: '100%' }}>
+        <div style={{ backgroundImage: 'url(home.jpeg)', backgroundSize: 'cover', height: '650px', position: 'relative', marginTop:'90px' }}>
+          <div style={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%,-50%)', textAlign: 'center', color: 'black' }}>
+            <h1 style={{ fontSize: '80px', fontStyle: 'italic', color: 'whitesmoke' }}>Online Meeting Scheduling App</h1>
+            <h1 style={{ fontSize: '50px', fontStyle: 'italic', color: 'blueviolet', padding: '30px' }}>MeetupHub</h1>
+          </div>
         </div>
-        </div>
-    <div className="myDiv">
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="./home.png" />
-
-      <Card.Body>
-        <Button variant="primary" className="btn">Admin</Button>
-        <Button variant="primary">User</Button>
-      </Card.Body>
-    </Card>
-    </div>
+      </div>
     </div>
   );
 }
